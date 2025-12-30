@@ -15,7 +15,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <div className="h-9 w-9 rounded-xl bg-orange-500 flex items-center justify-center text-white text-lg font-bold">
-              RM
+              KM
             </div>
             <div>
               <p className="text-sm font-semibold text-gray-900 leading-tight">
