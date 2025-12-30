@@ -19,7 +19,7 @@ export default function Home() {
             </div>
             <div>
               <p className="text-sm font-semibold text-gray-900 leading-tight">
-                Realty Management Co.
+                Kassoumeh Management Co.
               </p>
               <p className="text-[11px] text-gray-500">
                 Professional property management
