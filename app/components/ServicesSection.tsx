@@ -2,49 +2,51 @@ import React from "react";
 
 const services = [
   {
-    title: "1:1 Personal Training",
+    title: "Full-Service Property Management",
     description:
-      "Customized workout programs, hands-on guidance, and progress tracking to help you reach your unique fitness goals.",
+      "Comprehensive management of your rental properties, including tenant placement, rent collection, maintenance coordination, and financial reporting.",
     icon: (
       <svg className="w-8 h-8 text-orange-500 mb-3" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
-        <circle cx="12" cy="8" r="4" stroke="currentColor" />
-        <rect x="6" y="16" width="12" height="5" rx="2.5" stroke="currentColor" />
+        <rect x="3" y="7" width="18" height="13" rx="2" stroke="currentColor" />
+        <path stroke="currentColor" d="M9 21V13h6v8" />
+        <path stroke="currentColor" d="M9 9h6" />
       </svg>
     ),
   },
   {
-    title: "Nutrition Coaching",
+    title: "Tenant Screening & Leasing",
     description:
-      "Personalized meal plans and guidance to fuel your body with the right nutrition for peak performance and recovery.",
+      "Thorough screening of prospective tenants, lease preparation, and move-in coordination to ensure peace of mind for property owners.",
     icon: (
-      <svg className="w-8 h-8 text-orange-500 mb-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path stroke="currentColor" d="M3 17s2-4 9-4 9 4 9 4" />
+      <svg className="w-8 h-8 text-orange-500 mb-3" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
         <circle cx="12" cy="7" r="4" stroke="currentColor" />
+        <rect x="3" y="15" width="18" height="6" rx="2" stroke="currentColor" />
       </svg>
     ),
   },
   {
-    title: "Online Coaching",
+    title: "Property Maintenance & Repairs",
     description:
-      "Flexible remote training sessions, accountability check-ins, and full support wherever you are.",
+      "24/7 maintenance request handling, trusted vendor coordination, and proactive property inspections to protect your investment.",
     icon: (
-      <svg className="w-8 h-8 text-orange-500 mb-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <rect x="3" y="5" width="18" height="14" rx="3" stroke="currentColor" />
-        <path stroke="currentColor" d="M8 12h8" />
+      <svg className="w-8 h-8 text-orange-500 mb-3" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
+        <path stroke="currentColor" d="M4 13v6a1 1 0 0 0 1 1h6M20 11V5a1 1 0 0 0-1-1h-6" />
+        <rect x="7" y="7" width="10" height="10" rx="2" stroke="currentColor" />
       </svg>
     ),
-  },
+  }
 ];
 
 const ServicesSection = () => {
   return (
-    <section className="py-16 px-4 bg-white">
-      <div className="max-w-3xl mx-auto text-center mb-12">
+    <section className="py-16 px-6 bg-white" id="services">
+      <div className="max-w-4xl mx-auto text-center mb-12">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
-          <span className="text-orange-500">Services</span> I Offer
+          End-to-end <span className="text-orange-500">management services</span>
         </h2>
         <p className="text-gray-600">
-          Achieve your fitness goals with tailored plans, expert guidance, and full support.
+          Everything you need to protect your properties, keep tenants happy, and
+          grow long-term returns—handled by one experienced team.
         </p>
       </div>
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 max-w-4xl mx-auto">
